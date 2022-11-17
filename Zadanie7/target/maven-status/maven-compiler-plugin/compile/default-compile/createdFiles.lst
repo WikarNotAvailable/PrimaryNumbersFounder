@@ -1,0 +1,5 @@
+model\NotIntException.class
+model\PrimeNumberFinder.class
+com\mycompany\zadanie7\Zadanie7.class
+view\PrimeNumberShower.class
+controller\PrimeNumberController.class
