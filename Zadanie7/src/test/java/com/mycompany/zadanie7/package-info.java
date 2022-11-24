@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/package-info.java to edit this template
  */
 /**
- * This package contains controller of this program that is used to exchange information between logic and visual part of the application.
- * It also contains my own generic.
-*/
-package controller;
+ * Package containing tests of model.
+ */
+package com.mycompany.zadanie7;

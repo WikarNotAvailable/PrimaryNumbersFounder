@@ -7,7 +7,7 @@ import model.*;
 import view.*;
 /**
  * Controller class that is working on model's and view's methods.
- * @version 1.2
+ * @version 2.2
  * @author Daniel Wikarek
  */
 public class PrimeNumberController {
@@ -18,8 +18,7 @@ public class PrimeNumberController {
     /**
      * Allows to show numbers, messages etc. via console.
      */
-    private PrimeNumberShower shower;
-    
+    private PrimeNumberShower shower;    
     /**
      * Constructor with string argument creating instances of PrimeNumberFinder and PrimeNumberShower and assigning them to private fields of controller's class.
      * @param numberOfPrimeNumbers string that will be converter to an integer if possible
@@ -30,10 +29,16 @@ public class PrimeNumberController {
         try{
         finder = new PrimeNumberFinder(numberOfPrimeNumbers);
         }
-        catch(NotIntException ex){
+        catch(BadInputArgumentException ex){
             shower.showErrorMessage(ex.getMessage());
             int maxPrimaryNumber = shower.askForMaxPrimaryNumber();
-            finder = new PrimeNumberFinder(maxPrimaryNumber);
+            
+            try{
+                finder = new PrimeNumberFinder(maxPrimaryNumber);
+            }
+            catch(BadInputArgumentException ex2){
+            shower.showErrorMessage(ex.getMessage());
+            }
         }
     }
     /**
@@ -43,13 +48,33 @@ public class PrimeNumberController {
         shower = new PrimeNumberShower();   
 
         int maxPrimaryNumber = shower.askForMaxPrimaryNumber();
-        finder = new PrimeNumberFinder(maxPrimaryNumber);
-        
+        try{
+            finder = new PrimeNumberFinder(maxPrimaryNumber); 
+        }
+        catch(BadInputArgumentException ex){
+            shower.showErrorMessage(ex.getMessage());
+        }
     }
     /**
-     * Shows prime numbers from PrimeNumberFinder via PrimeNumberShower.
+     * Shows prime numbers from PrimeNumberFinder stored in my own generic via PrimeNumberShower.
      */
     public void writePrimeNumbers(){
-        shower.showPrimeNumbers(finder.getPrimeNumbers());
+        MyCopyingList<Integer> primeNumbers = new MyCopyingList<>();
+        primeNumbers.copyList(finder.getPrimeNumbers());
+        shower.showPrimeNumbers(primeNumbers);
+    }
+    /**
+     * Calculates new prime numbers (used after the creation of the controller).
+     */
+    public void calculateNewPrimeNumbers(){
+        int maxPrimaryNumber = shower.askForMaxPrimaryNumber();
+        try{
+            finder.setPrimeNumbersMax(maxPrimaryNumber);
+        }
+        catch(BadInputArgumentException ex){
+            shower.showErrorMessage(ex.getMessage());
+        }
+        
+        finder.setPrimeNumbers();
     }
 }

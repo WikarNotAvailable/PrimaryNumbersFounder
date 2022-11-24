@@ -5,21 +5,21 @@
 package model;
 
 /**
- * Class used for catching exception of passed argument not being an integer.
- * @version 1.1
+ * Class used for catching exception of passed argument not being an integer or being integer out of proper range.
+ * @version 2.1
  * @author Daniel Wikarek
  */
-public class NotIntException extends Exception{
+public class BadInputArgumentException extends Exception{
     /**
      * Default constructor.
      */
-    public NotIntException(){
+    public BadInputArgumentException(){
     }
     /**
      * Constructor with string parameter.
      * @param message contains detailed information about the exception.
      */
-    public NotIntException(String message){
+    public BadInputArgumentException(String message){
         super(message);
     }
 }

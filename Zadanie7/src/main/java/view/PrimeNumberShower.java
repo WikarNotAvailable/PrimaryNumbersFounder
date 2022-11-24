@@ -4,11 +4,13 @@
  */
 package view;
 
+import controller.MyCopyingList;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 /**
  * Class responsible for showing content using console.
- * @version 1.2
+ * @version 2.3
  * @author Daniel Wikarek
  */
 public class PrimeNumberShower {
@@ -18,12 +20,15 @@ public class PrimeNumberShower {
     public PrimeNumberShower(){}
     /**
      * Shows prime numbers via console.
-     * @param array prime numbers stored in array of integers.
+     * @param list prime numbers stored in my own generic.
      */
-    public void showPrimeNumbers(int [] array){
-        for (int i = 0; i<array.length;i++){
-            System.out.println(array[i]);
-        }
+    public void showPrimeNumbers(MyCopyingList<Integer> list){
+        Stream<Integer> stream;
+        stream = list.copyListStream();
+        
+        stream.forEach(p -> System.out.print(p + " "));
+        
+        System.out.println();
     }
     /**
      * Shows error message passed as an argument.

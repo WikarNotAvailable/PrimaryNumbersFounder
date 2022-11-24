@@ -7,14 +7,14 @@
 -source
 '17'
 -sourcepath
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/target/site/apidocs'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
@@ -27,31 +27,32 @@ com.mycompany.zadanie7
 controller
 model
 view
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/com/mycompany/zadanie7/package-info.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/com/mycompany/zadanie7/Zadanie7.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/controller/package-info.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/controller/PrimeNumberController.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/model/NotIntException.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/model/package-info.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/model/PrimeNumberFinder.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/view/package-info.java'
-'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/Zadanie7/src/main/java/view/PrimeNumberShower.java'
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\src\main\java = 1666013959863
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\allclasses-index.html = 1667216578855
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\allpackages-index.html = 1667216578858
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\element-list = 1667216578743
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\help-doc.html = 1667216578886
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\index-all.html = 1667216578878
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\index.html = 1667216578836
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\jquery-ui.overrides.css = 1667216578924
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\member-search-index.js = 1667216578863
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\module-search-index.js = 1667216578860
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\overview-summary.html = 1667216578880
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\overview-tree.html = 1667216578830
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\package-search-index.js = 1667216578861
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\script.js = 1667216578891
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\search.js = 1667216578893
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\serialized-form.html = 1667216578790
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\stylesheet.css = 1667216578889
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\tag-search-index.js = 1667216578864
-C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\Zadanie7\target\site\apidocs\type-search-index.js = 1667216578862
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/com/mycompany/zadanie7/package-info.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/com/mycompany/zadanie7/Zadanie7.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/controller/MyCopyingList.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/controller/package-info.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/controller/PrimeNumberController.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/model/BadInputArgumentException.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/model/package-info.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/model/PrimeNumberFinder.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/view/package-info.java'
+'C:/Users/wikar/OneDrive/Pulpit/java/Mój projekt/laby2/Wikarek.Daniel.cw2.final/Zadanie7/src/main/java/view/PrimeNumberShower.java'
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\src\main\java = 1668431962000
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\allclasses-index.html = 1668726948342
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\allpackages-index.html = 1668726948346
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\element-list = 1668726948235
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\help-doc.html = 1668726948375
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\index-all.html = 1668726948368
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\index.html = 1668726948326
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\jquery-ui.overrides.css = 1668726948413
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\member-search-index.js = 1668726948352
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\module-search-index.js = 1668726948348
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\overview-summary.html = 1668726948370
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\overview-tree.html = 1668726948322
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\package-search-index.js = 1668726948349
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\script.js = 1668726948379
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\search.js = 1668726948381
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\serialized-form.html = 1668726948278
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\stylesheet.css = 1668726948377
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\tag-search-index.js = 1668726948353
+C:\Users\wikar\OneDrive\Pulpit\java\Mój projekt\laby2\Wikarek.Daniel.cw2.final\Zadanie7\target\site\apidocs\type-search-index.js = 1668726948350

@@ -6,7 +6,7 @@ package com.mycompany.zadanie7;
 import controller.*;
 /**
  * This is main class of the project and only main function happens to be there.
- * @version 1.2
+ * @version 2.1
  * @author Daniel Wikarek
  */
 public class Zadanie7 {
@@ -24,5 +24,10 @@ public class Zadanie7 {
             controller = new PrimeNumberController();
         
         controller.writePrimeNumbers();
+        
+        while(true){
+            controller.calculateNewPrimeNumbers();
+            controller.writePrimeNumbers();
+        }
     }
 }
